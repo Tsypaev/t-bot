@@ -4,7 +4,7 @@ import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
 
 public class Bot extends TelegramLongPollingBot {
-
+//
     public void onUpdateReceived(Update update) {
         String message = update.getMessage().getText();
         sendMsg(update.getMessage().getChatId().toString(), message);
