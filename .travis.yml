@@ -7,5 +7,3 @@ deploy:
   api_key:
     secure: ${{ secrets.HEROKU_API_KEY }}
   app: telegram-tsypaev
-  run:
-    - restart
